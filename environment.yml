@@ -1,0 +1,17 @@
+name: care
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy
+      - scipy
+      - pandas
+      - matplotlib
+      - nibabel
+      - scikit-learn
+      - pytest
+      - ipykernel
+      - nbformat
+      - nbclient
