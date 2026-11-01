@@ -1,0 +1,19 @@
+{
+  "n_patients": 97,
+  "fold": 0,
+  "checkpoint": "checkpoint_final.pth",
+  "model_dir": "/kaggle/working/nnUNet_results/Dataset001_BrainTumour/nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres",
+  "tta_mirroring": true,
+  "device": "cuda",
+  "seconds_per_patient_mean": 9.747665609281087,
+  "nnunetv2": "2.8.1",
+  "torch": "2.11.0+cu128",
+  "region_A_classes": [
+    2
+  ],
+  "region_B_classes": [
+    1,
+    2,
+    3
+  ]
+}
